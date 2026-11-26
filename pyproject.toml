@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lease-sim"
+version = "0.1.0"
+description = "分布式租约与栅栏令牌离散事件模拟器"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+packages = ["lease_sim", "lease_sim.scenarios"]
